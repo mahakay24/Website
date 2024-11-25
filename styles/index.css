@@ -1,0 +1,134 @@
+.head {
+  grid-area: header;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+h1{
+  font-family: "La Belle Aurore", cursive ; 
+    
+   font-size: 50px; 
+   animation-name: colorchange;
+  animation-duration: 10s;
+  animation-iteration-count: infinite; 
+}
+.con {
+  grid-area: content;
+}
+.con h1{
+    font-family: "La Belle Aurore", cursive ; 
+    
+   font-size: 45px;
+}
+
+h2{
+   font-family: "La Belle Aurore", cursive ; 
+    
+   font-size: 35px;
+
+   transition:transform 4s ease 0.1s;
+}
+h2:hover{
+  transform:translateX(35%)
+
+}
+.sb {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot {
+  display: flex;
+  grid-area: footer;
+  align-items: center;
+}
+.Parent {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header header" "content sidebar" " footer footer";
+  grid-template-columns: auto 25%;
+  grid-template-rows: 15% auto 10%;
+}
+body {
+  margin: 0px;
+  background-image: linear-gradient(
+    to right,
+    #cb9df0,
+    #f0c1e1,
+    #fddbbb,
+    #fff9bf
+  );
+}
+
+.nav {
+  background-color: lightpink;
+  border-style: groove;
+  border-width: 8px;
+  border-color: #f0c1e1;
+  padding: 10px;
+  margin-right: 20px;
+  transition-property: background-color;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.1s;
+}
+.nav:hover{
+  background-color: #cb9df0;
+
+}
+.nav a {
+  font-family: "Dangrek", sans-serif;
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.card {
+  border-radius: 20px;
+  width: 30%;
+  background-color: lightskyblue;
+  margin-top: 20px;
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.desc {
+  padding: 2%;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.foot img {
+  width: 35px;
+  margin-left: 10px;
+}
+.foot p {
+  font-size: 25px;
+  font-weight: 40px;
+  font-family: "Dancing Script", cursive;
+  animation-name: colorchange;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.desc p {
+  font-family: "Amita", serif;
+}
+@keyframes colorchange{
+  25%{
+    color: magenta;
+  }
+  50%{
+    color: darkmagenta;
+  }
+  75%{
+       color: darkgoldenrod;
+  }
+  100%{
+    color: maroon;
+  }
+}

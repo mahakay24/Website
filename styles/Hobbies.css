@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to right top, #a1c398,#C6EBC5,#FEFDED,#FA7070);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+  width: 350px;
+  border-radius: 10px;
+  border-color: lemonchiffon;
+  border-style: groove;
+  border-width: 10px;
+   margin-left: 50px;
+}
+li{
+  font-size: 30px;
+  font-weight:bold;
+  font-style: italic;
+}
+p{
+  font-family: "Playwrite ES Deco", cursive;
+}
+

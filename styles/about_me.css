@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(
+    to left,
+    #fb773c,
+    #eb3678,
+    #4f1787,
+    #180161
+  );
+  color: aliceblue;
+  padding:50px;
+
+  
+}
+h1 {
+  color: lightsalmon;
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+}
+img {
+  width: 200px;
+  margin-left: 20px;
+  border-style: groove;
+  border-color: lightcoral;
+  border-width: 10px;
+  border-radius: 10px;
+}
+p{
+  font-family: "Lobster", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+.me:hover{
+  transform:scale(1.1);
+}
+

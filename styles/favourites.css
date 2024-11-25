@@ -1,0 +1,36 @@
+img {
+  width: 200px;
+}
+body {
+  background-image: linear-gradient(
+    to left,
+    #e7cccc,
+    #ede8dc,
+    #a5b68d,
+    #c1cfa1
+  );
+}
+h1 {
+  color: lightseagreen;
+}
+
+.chumma {
+  color: aliceblue;
+}
+p {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 35px;
+}
+img{
+  width: 350px;
+  border-radius: 10px;
+  border-color: limegreen;
+  border-style: groove;
+  border-width: 10px;
+   margin-left: 50px;
+transition: transform 3s ease 0.1s;
+}
+img:hover{
+  transform:skew(5deg,10deg)
+}
+

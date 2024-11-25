@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right,#789DBC,#FFE3E3);
+}
+img{
+    width: 350px;
+}
+p{
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+}
+.Genshin{
+    border-style: solid;
+    background-color: lightpink,lightblue,lightgreen;
+}

@@ -1,0 +1,44 @@
+.Candy {
+  border-style: solid;
+  width: 25%;
+  background-image: linear-gradient(to right, lightgreen, lightpink, lightblue);
+
+  border-radius: 20px;
+  padding: 10px;
+}
+img {
+  width: 250px;
+  margin: auto;
+  display: block;
+  transition: transform 4s ease 0.1s;
+}
+img:hover{
+transform: rotate(15deg);
+}
+p {
+  font-family: "Lobster", sans-serif;
+  color: chocolate;
+}
+body {
+  background-image: linear-gradient(
+    to left top,
+    #b7e0ff,
+    #fff5cd,
+    #ffcfb3,
+    #e78f81
+  );
+}
+h1 {
+  font-family: "Lobster", sans-serif;
+  color: chocolate;
+}
+h2 {
+  font-family: "Lobster", sans-serif;
+  color: chocolate;
+}
+.Comic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
